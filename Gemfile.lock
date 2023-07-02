@@ -219,7 +219,7 @@ PLATFORMS
 
 DEPENDENCIES
   puma
-  rails (~> 7.0.5, >= 7.0.5)
+  rails (= 7.0.6)
   ruby_audit
   simplecov
   spektr
