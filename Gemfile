@@ -5,6 +5,7 @@ ruby File.read(".ruby-version")
 
 # Bundle edge Rails instead: gem "rails", github: "rails/rails", branch: "main"
 gem "rails", "7.2.0.beta2"
+gem 'net-pop', github: 'ruby/net-pop' # 6/28/2024: Required for RUBY 3.3.3
 
 # The original asset pipeline for Rails [https://github.com/rails/sprockets-rails]
 gem "sprockets-rails"
