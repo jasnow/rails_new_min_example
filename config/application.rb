@@ -33,5 +33,7 @@ module RailsNewMinExample
 
     # Don't generate system test files.
     config.generators.system_tests = nil
+
+    config.active_support.to_time_preserves_timezone = :zone
   end
 end
