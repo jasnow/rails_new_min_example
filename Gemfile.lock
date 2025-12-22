@@ -104,7 +104,7 @@ GEM
     herb (0.8.5-x86_64-darwin)
     herb (0.8.5-x86_64-linux-gnu)
     herb (0.8.5-x86_64-linux-musl)
-    i18n (1.14.7)
+    i18n (1.14.8)
       concurrent-ruby (~> 1.0)
     io-console (0.8.2)
     irb (1.16.0)
@@ -208,7 +208,7 @@ GEM
       tsort (>= 0.2)
       zeitwerk (~> 2.6)
     rake (13.3.1)
-    rdoc (7.0.1)
+    rdoc (7.0.2)
       erb
       psych (>= 4.0.0)
       tsort
@@ -216,7 +216,7 @@ GEM
       io-console (~> 0.5)
     ruby_audit (3.0.0)
       bundler-audit (~> 0.9.0)
-    ruby_parser (3.21.1)
+    ruby_parser (3.22.0)
       racc (~> 1.5)
       sexp_processor (~> 4.16)
     securerandom (0.4.1)
@@ -354,7 +354,7 @@ CHECKSUMS
   herb (0.8.5-x86_64-darwin) sha256=91b3a4ee2ee8e7ded769844150abcd3dbe6ea97338f2bf6a36999775f10de845
   herb (0.8.5-x86_64-linux-gnu) sha256=4b19471c72eee67acc85a2e1484b653caec3271446756b60238179ca8fc830a7
   herb (0.8.5-x86_64-linux-musl) sha256=21695130a4bf09721556c096038e8fca128f97f550eab4ebde85fb1de2e425cf
-  i18n (1.14.7) sha256=ceba573f8138ff2c0915427f1fc5bdf4aa3ab8ae88c8ce255eb3ecf0a11a5d0f
+  i18n (1.14.8) sha256=285778639134865c5e0f6269e0b818256017e8cde89993fdfcbfb64d088824a5
   io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
   irb (1.16.0) sha256=2abe56c9ac947cdcb2f150572904ba798c1e93c890c256f8429981a7675b0806
   json (2.18.0) sha256=b10506aee4183f5cf49e0efc48073d7b75843ce3782c68dbeb763351c08fd505
@@ -396,10 +396,10 @@ CHECKSUMS
   rails-html-sanitizer (1.6.2) sha256=35fce2ca8242da8775c83b6ba9c1bcaad6751d9eb73c1abaa8403475ab89a560
   railties (8.1.1) sha256=fb0c7038b147bea41bf6697fa443ff1c5c47d3bb1eedd9ecf1bceeb90efcb868
   rake (13.3.1) sha256=8c9e89d09f66a26a01264e7e3480ec0607f0c497a861ef16063604b1b08eb19c
-  rdoc (7.0.1) sha256=7ae1540c54eb8174f6549440dd2299276eac51deaa7d80ea7db9ea5b96559f53
+  rdoc (7.0.2) sha256=0773452ac7735507f50f5c428c4f94e33da656ac4b0d58151105903ea91245ad
   reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
   ruby_audit (3.0.0) sha256=e456b31bdad006de56c2479cda74eaa1515578e052b84c85667856a44ec51ad7
-  ruby_parser (3.21.1) sha256=9d931abe5aec287d65280f811d3cf672564956ef1bd49f528ca48479984d6fec
+  ruby_parser (3.22.0) sha256=1eb4937cd9eb220aa2d194e352a24dba90aef00751e24c8dfffdb14000f15d23
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   sexp_processor (4.17.4) sha256=af0d2a40124b00f7bc1315d220471990403bd4cf9138f289417ae4e54e6e1ad0
   simplecov (0.22.0) sha256=fe2622c7834ff23b98066bb0a854284b2729a569ac659f82621fc22ef36213a5
@@ -442,7 +442,7 @@ CHECKSUMS
   zeitwerk (2.7.4) sha256=2bef90f356bdafe9a6c2bd32bcd804f83a4f9b8bc27f3600fff051eb3edcec8b
 
 RUBY VERSION
-  ruby 3.4.7
+  ruby 3.4.8
 
 BUNDLED WITH
   4.0.2
