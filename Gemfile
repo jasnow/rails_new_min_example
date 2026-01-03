@@ -20,7 +20,6 @@ gem "puma"
 gem "tzinfo-data", platforms: %i[windows jruby ]
 
 group :development, :test do
-  gem "ruby_audit"
   gem "spektr"
 end
 
