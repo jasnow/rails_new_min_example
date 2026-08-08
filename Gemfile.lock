@@ -87,13 +87,14 @@ GEM
     erubi (1.13.1)
     globalid (1.4.0)
       activesupport (>= 6.1)
-    haml (7.2.2)
+    haml (7.3.0)
+      prism (>= 1.1.0)
       temple (>= 0.8.2)
       thor
       tilt
     i18n (1.15.2)
       concurrent-ruby (~> 1.0)
-    io-console (0.8.2)
+    io-console (0.9.0)
     irb (1.18.0)
       pp (>= 0.6.0)
       prism (>= 1.3.0)
@@ -203,7 +204,7 @@ GEM
       prism (>= 1.6.0)
       rbs (>= 4.0.0)
       tsort
-    reline (0.6.3)
+    reline (0.7.0)
       io-console (~> 0.5)
     ruby_parser (3.22.0)
       racc (~> 1.5)
@@ -249,7 +250,7 @@ GEM
       unicode-display_width (>= 1.5, < 3.0)
       unicode_utils (~> 1.4)
     strings-ansi (0.2.0)
-    temple (0.10.4)
+    temple (0.10.6)
     thor (1.5.0)
     tilt (2.8.0)
     timeout (0.6.1)
@@ -323,9 +324,9 @@ CHECKSUMS
   erb (6.0.7) sha256=c5ca6dc25b0ef974a44dc8f59fe847577122483b1968a38dec305c60bf91ee92
   erubi (1.13.1) sha256=a082103b0885dbc5ecf1172fede897f9ebdb745a4b97a5e8dc63953db1ee4ad9
   globalid (1.4.0) sha256=037f12fbf1d9d7a014d501c2d5c77356fd4ddd96d7a7991d6700bba96706f427
-  haml (7.2.2) sha256=b2f3819d6025a886dc50e5b85f67b568de3e87bc9b61e4d3a2f0f97e36d7fe02
+  haml (7.3.0) sha256=4383cb90bb0b525d4025dcb9721fec085edda1c43525043fc327c80127f6cf37
   i18n (1.15.2) sha256=00f9eb62412fe593b2a65a97daa75300d37abb8f7202ec748e94b6d46a9dd1b5
-  io-console (0.8.2) sha256=d6e3ae7a7cc7574f4b8893b4fca2162e57a825b223a177b7afa236c5ef9814cc
+  io-console (0.9.0) sha256=b8946037a2e385580665c31aa593c785923fe900c694d86da011fd48e51e3868
   irb (1.18.0) sha256=de9454a0703a54704b9811a5ef31a60c86949fbf4013fcf244fabc7c775248e3
   json (2.21.2) sha256=1f1d3b7cf2b3ba1a69beca0bb6db13d5438b80bff3cd54cdaaa620b9b07c1c6a
   logger (1.7.0) sha256=196edec7cc44b66cfb40f9755ce11b392f21f7967696af15d274dde7edff0203
@@ -367,7 +368,7 @@ CHECKSUMS
   rake (13.4.2) sha256=cb825b2bd5f1f8e91ca37bddb4b9aaf345551b4731da62949be002fa89283701
   rbs (4.1.2) sha256=050eb1d8b508f1233bed929c0f2c7052302f7adf295230d9cb314e9024078f48
   rdoc (8.0.0) sha256=03bf8c08a9639658855a0cfd77c0abca8325c227693f7f33f82957811348c469
-  reline (0.6.3) sha256=1198b04973565b36ec0f11542ab3f5cfeeec34823f4e54cebde90968092b1835
+  reline (0.7.0) sha256=5b012d8e55dbf9d450f12bde2cf7d15ff546ae80b3f8f3b30e570d431815583d
   ruby_parser (3.22.0) sha256=1eb4937cd9eb220aa2d194e352a24dba90aef00751e24c8dfffdb14000f15d23
   securerandom (0.4.1) sha256=cc5193d414a4341b6e225f0cb4446aceca8e50d5e1888743fac16987638ea0b1
   sexp_processor (4.17.5) sha256=ae2b48ba98353d5d465ce8759836b7a05f2e12c5879fcd14d7815b026de32f0e
@@ -387,7 +388,7 @@ CHECKSUMS
   sqlite3 (2.9.5-x86_64-linux-musl) sha256=e7d3a7474e8af0f96150c21abc203fbab5437206bfcdf11deab7741c0ca516f2
   strings (0.2.1) sha256=933293b3c95cf85b81eb44b3cf673e3087661ba739bbadfeadf442083158d6fb
   strings-ansi (0.2.0) sha256=90262d760ea4a94cc2ae8d58205277a343409c288cbe7c29416b1826bd511c88
-  temple (0.10.4) sha256=b7a1e94b6f09038ab0b6e4fe0126996055da2c38bec53a8a336f075748fff72c
+  temple (0.10.6) sha256=0f2ed8a885a81ef5b13b1d99a02948e36da34f2212390f0a0228bfd0412c400a
   thor (1.5.0) sha256=e3a9e55fe857e44859ce104a84675ab6e8cd59c650a49106a05f55f136425e73
   tilt (2.8.0) sha256=ba472eb2716fe1e04112d6d219a9dae938ec09a6a1e2ad3ecc7922e79bde3721
   timeout (0.6.1) sha256=78f57368a7e7bbadec56971f78a3f5ecbcfb59b7fcbb0a3ed6ddc08a5094accb
